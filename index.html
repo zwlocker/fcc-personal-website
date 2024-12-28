@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Zach Locker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
     <header id="header">
-      <nav id="navbar">
-        <ul>
-          <li><a href="#welcome-section">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-      <div id="welcome-section" class="intro">
-        <h1 class="heading">Hi, my name is Zach.</h1>
-        <p class="heading"><i>I'm a <b>developer</b> and <b>student</b> at the Univeristy of Georgia.</i></p>
-      </div>
-      <section id="projects" class="projects">
-        <h2 class="project-header">Here are some of my projects:</h2>
-        <hr></hr>
-        <div class="project-tile">
-          <div class="app">
-            <a href="https://github.com/zwlocker/cs1302-api-app" target="_blank">
-            <img src="https://i.imgur.com/TA47Z0T.png" alt="weather-app" width="499" height="486">
-            <p class="app-title"><span class="hover-reveal">&lt;</span> Temperature Modeling <span class="hover-reveal">&gt;</span></p>
-            </a>
-          </div>
-          <div class="app">
-            <a href="https://github.com/zwlocker/csci1302-gallery" target="_blank">
-            <img src="https://i.imgur.com/kWKu6PZ.png" alt="gallery-app">
-            <p class="app-title"><span class="hover-reveal">&lt;</span> iTunes Image Gallery <span class="hover-reveal">&gt;</span></p>
-            </a>
-          </div>
-          <div class="app">
-            <a href="https://github.com/zwlocker/conduct-price-checker" target="_blank">
-            <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000015189/c68bcbf1ba8f197d64ef47b5fa5fc850fbfb5da394f8e9982fbccb0feab9e9b9" width="499" height="486" alt="conduct-together-game">
-            <p class="app-title"><span class="hover-reveal">&lt;</span> eShop Price Tracker <span class="hover-reveal">&gt;</span></p>
-            </a>   
-          </div>
+        <div id="welcome-section" class="intro">
+            <h1 class="heading">Hi, my name is Zach.</h1>
+            <p class="heading"><i>I'm a <strong>developer</strong> and <strong>student</strong> at the Univeristy of Georgia.</i></p>
         </div>
-        <a href="https://github.com/zwlocker" target="_blank" class="show-all-button">Show All ></a>
-      </section>
+        <section id="projects" class="projects">
+            <h2 class="project-header">Here are some of my projects:</h2>
+            <p id="click-info">Click on the images to check them out!</p>
+            <hr></hr>
+            <div class="project-title">
+                <div class="app">
+                    <div class="app-img">
+                        <a href="https://github.com/zwlocker/conduct-price-checker" target="_blank">
+                        <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000015189/c68bcbf1ba8f197d64ef47b5fa5fc850fbfb5da394f8e9982fbccb0feab9e9b9" alt="conduct-together-game">
+                        <p class="app-title"><span class="hover-reveal">&lt;</span> eShop Price Tracker <span class="hover-reveal">&gt;</span></p>
+                        </a>
+                    </div>
+                    <div class="app-desc">
+                        <p>This price checker tool is used to check the price of one of my favorite games for the Nintendo Switch, Conduct Together. When ran, this program scrapes the price from the Nintendo eShop website and checks if the game is on sale. If it is, it proceeds to notify me via email.</p>
+                    </div>   
+                </div>
+                <div class="app">
+                    <div class="app-desc">
+                        <p>This iTunes Image Gallery displays a gallery of images based on the results of a search query to the iTunes Search API. This can include Music, movies, podcasts, and much more, giving users a curated grid of images based on their favorite iTunes media.</p>
+                    </div>
+                    <div class="app-img">
+                        <a href="https://github.com/zwlocker/csci1302-gallery" target="_blank">
+                        <img src="https://i.imgur.com/kWKu6PZ.png" alt="gallery-app">
+                        <p class="app-title"><span class="hover-reveal">&lt;</span> iTunes Image Gallery <span class="hover-reveal">&gt;</span></p>
+                        </a>
+                    </div>
+                </div>              
+                <div class="app">
+                    <div class="app-img">
+                        <a href="https://github.com/zwlocker/cs1302-api-app" target="_blank">
+                        <img src="https://i.imgur.com/TA47Z0T.png" alt="weather-app">
+                        <p class="app-title"><span class="hover-reveal">&lt;</span> Temperature Model <span class="hover-reveal">&gt;</span></p>
+                        </a>
+                    </div>
+
+                    <div class="app-desc">
+                        <p>This app retrieves the daily temperature forecast for a user-specified location from Open-Meteo Weather Forecast API. Then, it constructs a query to feed into Image-Charts API, which returns a line graph for users to visualize the temperature. For fun, I added functionality with a fun fact API, so next to the average daily temperature is a fun fact about that number. </p>
+                    </div>
+                </div>     
+            </div>
+            <a href="https://github.com/zwlocker" target="_blank" class="show-all-button">Show All ></a>
+        </section>
       <section id="contact" class="contact">
         <h1>Let's work together.</h1>
         <h4><i>Get in touch with me!</i></h4>
