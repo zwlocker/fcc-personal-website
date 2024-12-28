@@ -1,2 +1,2 @@
 # fcc-personal-website
-Personal website to showcase projects made while completing freeCodeCamp's Responsive Web Design certification
+This is a personal website to showcase projects I've made made while completing freeCodeCamp's Responsive Web Design certification.
