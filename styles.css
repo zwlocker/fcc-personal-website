@@ -71,7 +71,7 @@
   
   .intro {
     font-size: 3rem;
-    color: #4ECDC4; /* Muted teal */
+    color: #4ECDC4;
   }
   
   .intro p {
@@ -159,21 +159,21 @@
   img {
     border-radius: 10px 10px 0 0;
     max-width: 100%;
-    display: block; /* Prevent inline spacing issues */
+    display: block; 
   }
   
   .contact {
-    background-color: #333333; /* Neutral dark gray */
-    color: #FDFDFD;
-    height: 70vh;
+    background-color: #333333; 
+    color: #FF6B6B;
     padding-top: 200px;
+    padding-bottom: 100px;
   }
   
   .contact h1, .contact h4 {
     text-align: center;
   }
   .contact h4 {
-    color: #CCCCCC; /* Soft gray */
+    color: #CCCCCC; 
 
   }
   
